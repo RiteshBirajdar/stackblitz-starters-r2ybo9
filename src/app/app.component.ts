@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { HerosComponent } from './heros/heros.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 @Component({
   standalone: true,
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HerosComponent],
+  imports:[HeroesComponent],
 })
 export class AppComponent implements OnInit {
 
